@@ -46,6 +46,10 @@ h1 {
     border-radius: 3px;
 }
 
+.btn:hover {
+    background-color: chocolate;
+}
+
 .marcelo {
     width: 45%;
 }
