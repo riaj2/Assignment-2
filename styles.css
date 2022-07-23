@@ -1,7 +1,3 @@
-/* font style */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
-
 body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -55,11 +51,8 @@ h1 {
     margin-left: 75px;
 }
 
-/* header style ends */
-
-
-
-@media screen and (max-width: 776px) {
+/* header ends /////////////// */
+@media screen and (max-width:) {
     #world-cup-sec {
         width: 85%;
 
@@ -92,107 +85,29 @@ h1 {
         margin: auto;
     }
 
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-        margin-top: 20px;
-
-        float: right;
-
-
-
-    }
-
-
-
-    .aside-container {
-
-        background-color: none;
-
-
-
-    }
 }
 
 
-/* main style */
-.section-container {
+
+/* main starts/////////// */
+
+
+main {
+    margin-top: 20px;
+}
+
+.aside-container {
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
-    grid-template-columns: 5% 95%;
-    gap: 40px;
-    margin: 20px 100px;
-
-
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    flex-direction: column;
-    margin-top: 20px;
-    gap: 20px;
-    float: right;
-
-
-
-}
-
-
-.transfer-btn {
-    text-decoration: none;
-    font-size: 12px;
-    color: rgb(44, 46, 46);
-    border: 1px solid rgb(91, 90, 90);
-    padding: 5px;
-    border-radius: 3px;
-}
-
-.icon-sec {
-    display: flex;
     align-items: center;
-}
-
-.time-icon {
-    display: flex;
-    align-items: center;
-
-}
-
-.chat-icon {
-    display: flex;
-    margin-left: 30px;
-    align-items: center;
-
-}
-
-.time-icon img {
-    margin-right: 5px;
-}
-
-.chat-icon img {
-    margin-right: 5px;
-}
-
-article {
-    border: 1px solid seashell;
-    width: 310px;
-    height: 340px;
-    border-radius: 10px;
-
-}
-
-/* starts aside */
-.aside-container {
-    width: 150px;
-    height: 160px;
     background-color: black;
     border: solid black;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 10px;
-    padding: 10px;
+
+    padding: 15px;
 
 
 }
@@ -208,10 +123,10 @@ article {
     text-decoration: none;
     display: inline-block;
     color: black;
-    font-size: 14px;
+    font-size: 19px;
     background-color: white;
     margin-top: 5px;
-    padding: 10px;
+    padding: 10px 14px;
 
     border-radius: 3px;
     border: 1px solid black;
@@ -221,32 +136,68 @@ article {
     text-decoration: none;
     display: inline-block;
     color: black;
-    font-size: 14px;
+    font-size: 19px;
     background-color: white;
-    padding: 10px 40px;
+    padding: 10px 47px;
     margin-top: 10px;
     border-radius: 3px;
     border: 1px solid black;
 }
+
 
 .side-btn3 {
     text-decoration: none;
     display: inline-block;
     color: black;
-    font-size: 14px;
+    font-size: 19px;
     background-color: rgb(227, 15, 15);
-    padding: 10px 55px;
+    padding: 10px 65px;
     margin-top: 10px;
     border-radius: 3px;
     border: 1px solid black;
 }
 
-/* aside ends */
+.container {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 5% 95%;
+    gap: 50px;
+
+
+}
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 20px;
+
+
+
+
+
+}
+
+.future {
+    display: flex;
+
+}
+
+.containerr {
+
+    border: 1px solid seashell;
+
+    width: 260px;
+    height: 240px;
+    border-radius: 10px;
+}
 
 /* main ends  */
 
-/* footer starts 
- */
+/* footerstars  */
+
 #footer {
     text-align: center;
     width: 100%;

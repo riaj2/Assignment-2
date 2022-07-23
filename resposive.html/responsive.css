@@ -1,0 +1,13 @@
+  @media screen and (max-width: 876px) {
+
+      #world-cup-sec {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 85%;
+          height: 600px;
+
+          border-radius: 18px;
+          background-color: rgb(27, 25, 25);
+      }
+  }
